@@ -11,17 +11,6 @@ const products = [
             "Vendido por Ismael Vieira 😉",
         ]
     },
-        {
-        id: 1,
-        name: "Janela Crunchyroll em HD (mensal)",
-        price: 6.00,
-        image: "https://upload.wikimedia.org/wikipedia/commons/0/08/Crunchyroll_Logo.png",
-        description: "Melhor preço só aqui!! Aproveite seus animes com otima qualidade e preço justp!!",
-        features: [
-            "Produto 100% confiavel!",
-            "Vendido por Ismael Vieira 😉",
-        ]
-    },
 ];
 
 // Estado da aplicação
