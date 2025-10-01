@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Digital - Produtos Digitais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">StreamBox Oficial</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input" placeholder="🔍 Pesquisar produtos...">
+            </div>
+            <div class="header-icons">
+                <button class="icon-btn" id="favoritesBtn">
+                    <span class="badge" id="favoritesBadge">0</span>
+                    ❤️
+                </button>
+                <button class="icon-btn" id="cartBtn">
+                    <span class="badge" id="cartBadge">0</span>
+                    🛒
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h2 class="section-title">Produtos em Destaque</h2>
+            <div id="productsGrid" class="products-grid">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>😔 Nenhum produto encontrado</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">✕</button>
+            <div class="modal-body">
+                <img id="modalImage" class="modal-image" src="" alt="">
+                <h2 id="modalTitle" class="modal-title"></h2>
+                <p id="modalPrice" class="modal-price"></p>
+                <p id="modalDescription" class="modal-description"></p>
+                <div class="modal-features">
+                    <h3>✨ Características:</h3>
+                    <ul id="modalFeatures"></ul>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn btn-primary" id="modalBuyBtn">Comprar Agora</button>
+                    <button class="btn btn-secondary" id="modalCartBtn">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="modal">
+        <div class="modal-overlay" id="cartModalOverlay"></div>
+        <div class="modal-content modal-cart">
+            <button class="modal-close" id="cartModalClose">✕</button>
+            <div class="modal-body">
+                <h2 class="modal-title">🛒 Meu Carrinho</h2>
+                <div id="cartItems" class="cart-items">
+                    <!-- Cart items will be inserted here -->
+                </div>
+                <div id="cartEmpty" class="cart-empty" style="display: none;">
+                    <p>Seu carrinho está vazio 😢</p>
+                </div>
+                <div id="cartTotal" class="cart-total">
+                    <h3>Total: <span id="totalPrice">R$ 0,00</span></h3>
+                </div>
+                <button class="btn btn-primary btn-full" id="checkoutBtn">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Favorites Modal -->
+    <div id="favoritesModal" class="modal">
+        <div class="modal-overlay" id="favoritesModalOverlay"></div>
+        <div class="modal-content modal-favorites">
+            <button class="modal-close" id="favoritesModalClose">✕</button>
+            <div class="modal-body">
+                <h2 class="modal-title">❤️ Meus Favoritos</h2>
+                <div id="favoritesItems" class="favorites-items">
+                    <!-- Favorite items will be inserted here -->
+                </div>
+                <div id="favoritesEmpty" class="favorites-empty" style="display: none;">
+                    <p>Você ainda não tem favoritos 😢</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
