@@ -15,7 +15,7 @@ const products = [
         id: 2,
         name: "Janela Crunchyroll em HD (mensal)",
         price: 6.00,
-        image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/0/08/Crunchyroll_Logo.png",
         description: "Melhor preço só aqui!! Aproveite seus animes com um preço bem acessivel!!",
         features: [
             "Produto 100% confiavel!",
