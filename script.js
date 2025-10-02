@@ -2,8 +2,8 @@
 const products = [
     {
         id: 1,
-        name: "Janela Neflix em HD (mensal)",
-        price: 10.00,
+        name: "Janela Neflix HD, Plano com anúncios",
+        price: 8.00,
         image: "https://static.vecteezy.com/system/resources/previews/017/396/814/non_2x/netflix-mobile-application-logo-free-png.png",
         description: "Melhor preço só aqui!! Aproveite seus filmes e series por bem pouco!!",
         features: [
@@ -17,6 +17,17 @@ const products = [
         price: 6.00,
         image: "https://upload.wikimedia.org/wikipedia/commons/0/08/Crunchyroll_Logo.png",
         description: "Melhor preço só aqui!! Aproveite seus animes com um preço bem acessivel!!",
+        features: [
+            "Produto 100% confiavel!",
+            "Vendido por Ismael Vieira 😉",
+        ]
+    },
+        {
+        id: 1,
+        name: "Janela Neflix FHD",
+        price: 12.00,
+        image: "https://static.vecteezy.com/system/resources/previews/017/396/814/non_2x/netflix-mobile-application-logo-free-png.png",
+        description: "Melhor preço só aqui!! Aproveite seus filmes e series por bem pouco!!",
         features: [
             "Produto 100% confiavel!",
             "Vendido por Ismael Vieira 😉",
