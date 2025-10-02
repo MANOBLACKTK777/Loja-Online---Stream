@@ -23,7 +23,7 @@ const products = [
         ]
     },
         {
-        id: 1,
+        id: 3,
         name: "Janela Neflix FHD",
         price: 12.00,
         image: "https://static.vecteezy.com/system/resources/previews/017/396/814/non_2x/netflix-mobile-application-logo-free-png.png",
