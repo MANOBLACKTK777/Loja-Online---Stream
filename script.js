@@ -24,7 +24,7 @@ const products = [
     },
         {
         id: 3,
-        name: "Janela Neflix FHD",
+        name: "Janela Neflix FHD // indisponível ❌",
         price: 12.00,
         image: "https://static.vecteezy.com/system/resources/previews/017/396/814/non_2x/netflix-mobile-application-logo-free-png.png",
         description: "Melhor preço só aqui!! Aproveite seus filmes e series por bem pouco!!",
